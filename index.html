@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Lottery</h2>
+    <textarea placeholder="Write Something Here" id="text" name="input">hello</textarea>
+    <div>
+        <label for="first">1st Price: </label>
+        <input type="number" min="1" name="first" id="first" value="1">
+    </div>
+    <div>
+        <label for="second">2nd Price: </label>
+        <input type="number" min="0" name="second" id="second" value="0">
+    </div>
+    <div>
+        <label for="third">3rd Price: </label>
+        <input type="number" min="0" name="third" id="third" value="0">
+    </div>
+    <button onclick="onClick()">Draw</button>
+    <div id="div1">
+        <p class="p">Good Luck !</p>
+    </div>
+</body>
+<script src="lottery.js"></script>
+</html>
